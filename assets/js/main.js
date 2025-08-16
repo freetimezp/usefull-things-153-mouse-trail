@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function manageItemLimit() {
-        while (container.children.length > 16) {
+        while (container.children.length > 50) {
             container.removeChild(container.firstChild);
         }
     }
