@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.querySelector(".items");
     let imageIndex = 1;
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function manageItemLimit() {
-        while (container.children.length > 20) {
+        while (container.children.length > 16) {
             container.removeChild(container.firstChild);
         }
     }
@@ -44,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
 
                 currentlyPlaying = false;
-            }
+            },
         });
     }
 
